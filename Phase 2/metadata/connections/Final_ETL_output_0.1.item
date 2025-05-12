@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="context.Final_ETL_output_AdditionalParams" ContextId="_mgkwIPV7Ee6a67Tnkgk74Q" ContextMode="true" DatabaseType="MySQL" DatasourceName="" DbmsId="mysql_id" DriverClass="com.mysql.cj.jdbc.Driver" FileFieldName="" NullChar="" Password="context.Final_ETL_output_Password" Port="context.Final_ETL_output_Port" ProductId="MYSQL" SID="context.Final_ETL_output_Database" SQLMode="false" ServerName="context.Final_ETL_output_Server" SqlSynthax="" StandardSQL="true" StringQuote="" URL="jdbc:mysql://localhost:3306/final_project_etl?noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" UiSchema="" Username="context.Final_ETL_output_Login" contextName="Default" dataPackage="_m16G8PV7Ee6a67Tnkgk74Q" dbVersionString="MYSQL_8" id="_dVA_gPV7Ee6a67Tnkgk74Q" label="Final_ETL_output" name="Final_ETL_output" supportNLS="false" xmi:id="_m1P_oPV7Ee6a67Tnkgk74Q">
+    <taggedValue tag="Is Conn Need Reload" value="false" xmi:id="_m1P_ofV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="package filter" value="" xmi:id="_m1srkPV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="Status" value="" xmi:id="_m1srkfV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_m1srkvV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_m1srk_V7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="Description" value="" xmi:id="_m1srlPV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="Author" value="" xmi:id="_m1srlfV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="otherParameter" xmi:id="_m1srlvV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="DB ProductName" value="MySQL" xmi:id="_m111gPV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="DB ProductVersion" value="8.2.0" xmi:id="_m111gfV7Ee6a67Tnkgk74Q"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="`" xmi:id="_m111gvV7Ee6a67Tnkgk74Q"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="context.Final_ETL_output_Login" xmi:id="_m1P_ovV7Ee6a67Tnkgk74Q"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_m1P_oPV7Ee6a67Tnkgk74Q" name="final_project_etl" xmi:id="_m16G8PV7Ee6a67Tnkgk74Q"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a96d492a-b1cd-4004-818e-4484135cb0f1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JgQNgBUBJNEOKac++48g2XjXn4KvIQRENR6LR/UA/wvSgw9mrNThg7Wkd/cvsPZl9/6GS+d3ub4I&#13;
+nNmD6uyCYQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c2e405ba-7595-43a6-bb60-0542194fb15e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BKIBxNwaimKSwV3Q80pNvReIgC7rJkPGeR9WJEsPynOba6JNJZLE+tF7iT4su7qw3PpWoMF/fapP&#13;
+8vcn/Hw66A==</DigestValue></Reference></SignedInfo><SignatureValue>nSit2kmZuvv1WB/uvWmgMyKG9lswcnc21PvJxYuYV9yJYRpw0HLwN4J4KqOPJVT3JXR3U2N3tCHv&#13;
+5o+OUa5itlvNvrSkdJ7v+xBBi2+x4J3q52qmyYIZ2V0fxEbeEyx9JUqI4YDSAv4dCh6+ilZGx8+d&#13;
+K2L4QpBHBT881vGemBaAlP3RduQqLRuLHAhJjzwJJSszco2s+w7fdqA0okV3klsL0oPEOYR3A/yc&#13;
+zM3vtydmjTVm55UCbZylDpWUl0EPd3PAJ+sqBZYdtjnEQs1CK5cxhEm7oF6TnY1yQCgZ2IZ0ui0c&#13;
+pBKk7GPWgqIZO13h72o2ZPmbFcXdQxM9DrwzsQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c2e405ba-7595-43a6-bb60-0542194fb15e" Target="#_a96d492a-b1cd-4004-818e-4484135cb0f1"><Timestamp>2024-04-08 07:42:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
