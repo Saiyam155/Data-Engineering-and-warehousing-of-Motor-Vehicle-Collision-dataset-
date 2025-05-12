@@ -38,6 +38,36 @@ This project focuses on building a comprehensive ETL (Extract, Transform, Load) 
     • Are pedestrians killed more often than road users?\
     • What are the most common factors involved in accidents
 
+- **Some visuals of our project**:\
+
+  1. Dashboard 1 New York
+
+     ![image](https://github.com/user-attachments/assets/cc016882-5447-4666-9d91-ab30c57e1785)
+
+  2.	Time based analysis for crashes
+     
+     ![image](https://github.com/user-attachments/assets/fc744424-f95e-4cd7-8866-35b696f2cffe)
+  
+  3.	Accident Report
+ 
+     ![image](https://github.com/user-attachments/assets/a1fe491c-8d95-43f7-9b0a-2926b96ff284)
+
+  4. Crash Analysis
+
+     ![image](https://github.com/user-attachments/assets/f4c027d3-3b48-41a3-97a2-0952605787c6)
+
+  5.	Pedestrians involved in accidents (Fatality Analysis)
+     
+     ![image](https://github.com/user-attachments/assets/3969bca7-f4ad-4c1c-bac8-b9ada90e08d3)
+
+  6.	Top 10 Contributing Factor
+ 
+     ![image](https://github.com/user-attachments/assets/74ea3b80-93a2-4ec8-b204-60df29d4b79e)
+
+  7. Top 5 areas with most crashes
+
+     ![image](https://github.com/user-attachments/assets/da63d2f7-f70b-435f-8f35-e2cbc4e8c387)
+
 ## Technologies Used
 - **ETL Tool**: Talend, Alteryx Designer, Python(Ydata Profiling)
 - **Database**: SQL Server
