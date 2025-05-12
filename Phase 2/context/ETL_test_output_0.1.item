@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_WFOUoPLhEe6A5Le2J7qo2g">
+    <contextParameter comment="" name="ETL_test_output_Password" prompt="ETL_test_output_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:rg6WwU9SSVp8z80Em/V/yMDKiUikIX9drY8Ni5YOuoS7ckuM" xmi:id="_WFO7sPLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_AdditionalParams" prompt="ETL_test_output_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_WFO7sfLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Database" prompt="ETL_test_output_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="final_project_draft1" xmi:id="_WFO7svLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Login" prompt="ETL_test_output_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_WFO7s_LhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Port" prompt="ETL_test_output_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_WFO7tPLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Server" prompt="ETL_test_output_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="Localhost" xmi:id="_WFO7tfLhEe6A5Le2J7qo2g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_WFO7tvLhEe6A5Le2J7qo2g">
+    <contextParameter comment="" name="ETL_test_output_Password" prompt="ETL_test_output_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:EviPmnslvWi4Htm4/eRP7Mno4qE++Zgk0pheqBWZ0qJajZWS" xmi:id="_WFO7t_LhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_AdditionalParams" prompt="ETL_test_output_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_WFO7uPLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Database" prompt="ETL_test_output_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="final_project_draft1" xmi:id="_WFO7ufLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Login" prompt="ETL_test_output_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_WFO7uvLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Port" prompt="ETL_test_output_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_WFO7u_LhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Server" prompt="ETL_test_output_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="Localhost" xmi:id="_WFO7vPLhEe6A5Le2J7qo2g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_WFO7vfLhEe6A5Le2J7qo2g">
+    <contextParameter comment="" name="ETL_test_output_Password" prompt="ETL_test_output_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:2hvyC5W7ThoJre9chLbGCoc4lkyGKeN6Cb5coWZQtIPgORxr" xmi:id="_WFO7vvLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_AdditionalParams" prompt="ETL_test_output_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_WFO7v_LhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Database" prompt="ETL_test_output_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="final_project_draft1" xmi:id="_WFO7wPLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Login" prompt="ETL_test_output_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_WFO7wfLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Port" prompt="ETL_test_output_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_WFO7wvLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Server" prompt="ETL_test_output_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="Localhost" xmi:id="_WFO7w_LhEe6A5Le2J7qo2g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_WFO7xPLhEe6A5Le2J7qo2g">
+    <contextParameter comment="" name="ETL_test_output_Password" prompt="ETL_test_output_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:bDelzxqCtNy/SrKKRCeaO1zmw1UiLR2KQQ9I/rpS3IxH2u59" xmi:id="_WFO7xfLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_AdditionalParams" prompt="ETL_test_output_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1" xmi:id="_WFO7xvLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Database" prompt="ETL_test_output_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="final_project_draft1" xmi:id="_WFO7x_LhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Login" prompt="ETL_test_output_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="root" xmi:id="_WFO7yPLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Port" prompt="ETL_test_output_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="3306" xmi:id="_WFO7yfLhEe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="ETL_test_output_Server" prompt="ETL_test_output_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="Localhost" xmi:id="_WFO7yvLhEe6A5Le2J7qo2g"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_667807fd-a55b-485d-9170-166316ef43f7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vcJ3K3SuZsU7gj2nTCzLZ8DhN8rHkYzaUXhCcbXuFC4C+qKrU1F1Fq6d9Rrf+FU9gG7CBTKMIm38&#13;
+Hbl2k4Cumw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ef657861-f856-4e5d-8dda-9ca81e2965bd"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>W2f9WKwlbv3JsfbPmSMcwNznYzOhC6XPnuqNSOUugZBU/fM3A205jN2Kd/AIqD/Ym6cFmrA6DCz6&#13;
+OBCXkX8xFQ==</DigestValue></Reference></SignedInfo><SignatureValue>c2ujZHW0SRrLUlxDt+UD7S4sFnvlDK2HOWUI9LuFhCFXcdn5Vq9lptOcfEaxBMSOnERr/lW8sWki&#13;
+RqjVM6G4pZ3bH6qr/eVe8vQXgvqJFHuXPSpz2vvZ0Bd1Ms8zt3e+RUuYQ7lJuNjv2zFAXYkuKC+f&#13;
+DcfCtu6+p8uiJcUY4sv6oh0AVRi4XfFq2SeaLA2ay7GIDiPMkyeLFU0VmH8wqvuHp4Zx4ltC6trI&#13;
+u489sdX0Xh5x9G8A+KKWCe3oaAyjk6b6lrTSiCGvOBaofW1QJ/ofJyTfw9o3BrzkGljZkGnTmCHz&#13;
+Nx9akHwZrb1/0z3215Jl6g2WUa7peB33TFuXug==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ef657861-f856-4e5d-8dda-9ca81e2965bd" Target="#_667807fd-a55b-485d-9170-166316ef43f7"><Timestamp>2024-04-08 05:04:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

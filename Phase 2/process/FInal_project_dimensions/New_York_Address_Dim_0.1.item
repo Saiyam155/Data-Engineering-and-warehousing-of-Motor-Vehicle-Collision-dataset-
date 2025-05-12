@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter comment="" internalId="_-JFroPLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_AdditionalParams" prompt="FInal_Project_phase1_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_-JFrofLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Login" prompt="FInal_Project_phase1_Login?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_-JFrovLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Database" prompt="FInal_Project_phase1_Database?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="damg7370"/>
+    <contextParameter comment="" internalId="_-JFro_LgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Server" prompt="FInal_Project_phase1_Server?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_-JFrpPLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Port" prompt="FInal_Project_phase1_Port?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_-JFrpfLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Password" prompt="FInal_Project_phase1_Password?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_Password" value="enc:system.encryption.key.v1:1TqaCOEW9CCijObyDsMdmYTQVcQQstX9PEA55F/ksTKS9mQN"/>
+    <contextParameter comment="" internalId="_4JFbkPLhEe6A5Le2J7qo2g" name="ETL_test_output_AdditionalParams" prompt="ETL_test_output_AdditionalParams?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_4JFbkfLhEe6A5Le2J7qo2g" name="ETL_test_output_Port" prompt="ETL_test_output_Port?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_4JFbkvLhEe6A5Le2J7qo2g" name="ETL_test_output_Login" prompt="ETL_test_output_Login?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_4JFbk_LhEe6A5Le2J7qo2g" name="ETL_test_output_Password" prompt="ETL_test_output_Password?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_Password" value="enc:system.encryption.key.v1:qXtTnykwAB3eD67B+dv+aNVB2R8RE/Z4RlXJxwqJdfvUkDJi"/>
+    <contextParameter comment="" internalId="_4JFblPLhEe6A5Le2J7qo2g" name="ETL_test_output_Database" prompt="ETL_test_output_Database?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="final_project_draft1"/>
+    <contextParameter comment="" internalId="_4JFblfLhEe6A5Le2J7qo2g" name="ETL_test_output_Server" prompt="ETL_test_output_Server?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="Localhost"/>
+    <contextParameter comment="" internalId="_o6Q2QPV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Port" prompt="ETL_test_output1_Port?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_o6Q2QfV5Ee6a67Tnkgk74Q" name="ETL_test_output1_AdditionalParams" prompt="ETL_test_output1_AdditionalParams?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_o6Q2QvV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Server" prompt="ETL_test_output1_Server?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="Localhost"/>
+    <contextParameter comment="" internalId="_o6Q2Q_V5Ee6a67Tnkgk74Q" name="ETL_test_output1_Login" prompt="ETL_test_output1_Login?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_o6Q2RPV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Database" prompt="ETL_test_output1_Database?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="final_project_etl"/>
+    <contextParameter comment="" internalId="_o6Q2RfV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Password" prompt="ETL_test_output1_Password?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:iobZFZw3sBAHgHaqJEoAJ36+j5mi9HohCGqyJtYpA9uybX3d9w=="/>
+    <contextParameter comment="" internalId="_FI7EYPV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Login" prompt="FInal_Project_phase11_Login?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_FI7EYfV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Database" prompt="FInal_Project_phase11_Database?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="staging_tables"/>
+    <contextParameter comment="" internalId="_FI7EYvV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Password" prompt="FInal_Project_phase11_Password?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:A1Ks9vw6EYmv/sLHrDB4PBmvUAcxwN+fpAda8aX2SxVmPW5HNg=="/>
+    <contextParameter comment="" internalId="_FI7EY_V6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Port" prompt="FInal_Project_phase11_Port?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FI7EZPV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_AdditionalParams" prompt="FInal_Project_phase11_AdditionalParams?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_FI7EZfV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Server" prompt="FInal_Project_phase11_Server?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_rAkwkPV7Ee6a67Tnkgk74Q" name="Final_ETL_output_AdditionalParams" prompt="Final_ETL_output_AdditionalParams?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_rAkwkfV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Login" prompt="Final_ETL_output_Login?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_rAkwkvV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Port" prompt="Final_ETL_output_Port?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_rAkwk_V7Ee6a67Tnkgk74Q" name="Final_ETL_output_Server" prompt="Final_ETL_output_Server?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_rAkwlPV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Database" prompt="Final_ETL_output_Database?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="final_project_etl"/>
+    <contextParameter comment="" internalId="_rAkwlfV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Password" prompt="Final_ETL_output_Password?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:38VxWhJEsMqhq9cha3H03wEco0PgyLVe2W0AIXls5jXMM51mWg=="/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Prod">
+    <contextParameter comment="" internalId="_-JFrpvLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_AdditionalParams" prompt="FInal_Project_phase1_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_-JFrp_LgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Login" prompt="FInal_Project_phase1_Login?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_-JFrqPLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Database" prompt="FInal_Project_phase1_Database?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="damg7370"/>
+    <contextParameter comment="" internalId="_-JFrqfLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Server" prompt="FInal_Project_phase1_Server?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_-JFrqvLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Port" prompt="FInal_Project_phase1_Port?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_-JGSsPLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Password" prompt="FInal_Project_phase1_Password?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_Password" value="enc:system.encryption.key.v1:rMEeI5l/cdyDSkU5UhinlWDr9bl9abr2DJiEo5lWccfQpGpg"/>
+    <contextParameter comment="" internalId="_4JFblvLhEe6A5Le2J7qo2g" name="ETL_test_output_AdditionalParams" prompt="ETL_test_output_AdditionalParams?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_4JFbl_LhEe6A5Le2J7qo2g" name="ETL_test_output_Port" prompt="ETL_test_output_Port?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_4JFbmPLhEe6A5Le2J7qo2g" name="ETL_test_output_Login" prompt="ETL_test_output_Login?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_4JFbmfLhEe6A5Le2J7qo2g" name="ETL_test_output_Password" prompt="ETL_test_output_Password?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_Password" value="enc:system.encryption.key.v1:uMFD+3wNNylu0TX6AW/e0yIkphESJkZeXCA4f1Ks/FGHIjiS"/>
+    <contextParameter comment="" internalId="_4JFbmvLhEe6A5Le2J7qo2g" name="ETL_test_output_Database" prompt="ETL_test_output_Database?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="final_project_draft1"/>
+    <contextParameter comment="" internalId="_4JFbm_LhEe6A5Le2J7qo2g" name="ETL_test_output_Server" prompt="ETL_test_output_Server?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="Localhost"/>
+    <contextParameter comment="" internalId="_o6Q2RvV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Port" prompt="ETL_test_output1_Port?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_o6Q2R_V5Ee6a67Tnkgk74Q" name="ETL_test_output1_AdditionalParams" prompt="ETL_test_output1_AdditionalParams?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_o6Q2SPV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Server" prompt="ETL_test_output1_Server?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="Localhost"/>
+    <contextParameter comment="" internalId="_o6Q2SfV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Login" prompt="ETL_test_output1_Login?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_o6Q2SvV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Database" prompt="ETL_test_output1_Database?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="final_project_etl"/>
+    <contextParameter comment="" internalId="_o6Q2S_V5Ee6a67Tnkgk74Q" name="ETL_test_output1_Password" prompt="ETL_test_output1_Password?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:Qg65W8qfSRjTykJJ62FoIYJTpYrjbm0UScLL+l7oyROhx9KSuQ=="/>
+    <contextParameter comment="" internalId="_FI7EZvV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Login" prompt="FInal_Project_phase11_Login?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_FI7EZ_V6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Database" prompt="FInal_Project_phase11_Database?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="staging_tables"/>
+    <contextParameter comment="" internalId="_FI7EaPV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Password" prompt="FInal_Project_phase11_Password?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:r5617j2GG1NqKrHBMOyKV66+yZK9ZFGNblqFE0Qu0kJj1/R8Hw=="/>
+    <contextParameter comment="" internalId="_FI7EafV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Port" prompt="FInal_Project_phase11_Port?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FI7EavV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_AdditionalParams" prompt="FInal_Project_phase11_AdditionalParams?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_FI7Ea_V6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Server" prompt="FInal_Project_phase11_Server?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_rAkwlvV7Ee6a67Tnkgk74Q" name="Final_ETL_output_AdditionalParams" prompt="Final_ETL_output_AdditionalParams?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_rAkwl_V7Ee6a67Tnkgk74Q" name="Final_ETL_output_Login" prompt="Final_ETL_output_Login?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_rAkwmPV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Port" prompt="Final_ETL_output_Port?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_rAkwmfV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Server" prompt="Final_ETL_output_Server?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_rAkwmvV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Database" prompt="Final_ETL_output_Database?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="final_project_etl"/>
+    <contextParameter comment="" internalId="_rAkwm_V7Ee6a67Tnkgk74Q" name="Final_ETL_output_Password" prompt="Final_ETL_output_Password?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:wf4RQ24UXhLrcznpP0ASo6VkOs7Hbptp12Ya8HYN50Nr6DaZyw=="/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Dev">
+    <contextParameter comment="" internalId="_-JGSsfLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_AdditionalParams" prompt="FInal_Project_phase1_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_-JGSsvLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Login" prompt="FInal_Project_phase1_Login?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_-JGSs_LgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Database" prompt="FInal_Project_phase1_Database?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="damg7370"/>
+    <contextParameter comment="" internalId="_-JGStPLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Server" prompt="FInal_Project_phase1_Server?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_-JGStfLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Port" prompt="FInal_Project_phase1_Port?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_-JGStvLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Password" prompt="FInal_Project_phase1_Password?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_Password" value="enc:system.encryption.key.v1:ujb9RGgnKL9BzuoiKI/sqHt9B4iTIASvsYb9kw8tPGmYro3m"/>
+    <contextParameter comment="" internalId="_4JJF8PLhEe6A5Le2J7qo2g" name="ETL_test_output_AdditionalParams" prompt="ETL_test_output_AdditionalParams?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_4JJF8fLhEe6A5Le2J7qo2g" name="ETL_test_output_Port" prompt="ETL_test_output_Port?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_4JJF8vLhEe6A5Le2J7qo2g" name="ETL_test_output_Login" prompt="ETL_test_output_Login?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_4JJF8_LhEe6A5Le2J7qo2g" name="ETL_test_output_Password" prompt="ETL_test_output_Password?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_Password" value="enc:system.encryption.key.v1:Jh+AKkLP/IAjjJNao5AsvnY5DW/fTENVnljRS5H76hRO6u9n"/>
+    <contextParameter comment="" internalId="_4JJF9PLhEe6A5Le2J7qo2g" name="ETL_test_output_Database" prompt="ETL_test_output_Database?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="final_project_draft1"/>
+    <contextParameter comment="" internalId="_4JJF9fLhEe6A5Le2J7qo2g" name="ETL_test_output_Server" prompt="ETL_test_output_Server?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="Localhost"/>
+    <contextParameter comment="" internalId="_o6Q2TPV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Port" prompt="ETL_test_output1_Port?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_o6Q2TfV5Ee6a67Tnkgk74Q" name="ETL_test_output1_AdditionalParams" prompt="ETL_test_output1_AdditionalParams?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_o6Q2TvV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Server" prompt="ETL_test_output1_Server?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="Localhost"/>
+    <contextParameter comment="" internalId="_o6Q2T_V5Ee6a67Tnkgk74Q" name="ETL_test_output1_Login" prompt="ETL_test_output1_Login?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_o6Q2UPV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Database" prompt="ETL_test_output1_Database?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="final_project_etl"/>
+    <contextParameter comment="" internalId="_o6Q2UfV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Password" prompt="ETL_test_output1_Password?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:TyNofnqTEPdYF9dKkS0zo6+0uBqzRhxAC21OS6aRYWqoHCtBIQ=="/>
+    <contextParameter comment="" internalId="_FI7EbPV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Login" prompt="FInal_Project_phase11_Login?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_FI7EbfV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Database" prompt="FInal_Project_phase11_Database?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="staging_tables"/>
+    <contextParameter comment="" internalId="_FI7EbvV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Password" prompt="FInal_Project_phase11_Password?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:hC3BWDsAZjEeeNLCfggUEQqrvrl0qTrPh3LvxMiG7jv7o7ZU2Q=="/>
+    <contextParameter comment="" internalId="_FI7Eb_V6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Port" prompt="FInal_Project_phase11_Port?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FI7EcPV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_AdditionalParams" prompt="FInal_Project_phase11_AdditionalParams?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_FI7EcfV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Server" prompt="FInal_Project_phase11_Server?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_rAkwnPV7Ee6a67Tnkgk74Q" name="Final_ETL_output_AdditionalParams" prompt="Final_ETL_output_AdditionalParams?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_rAkwnfV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Login" prompt="Final_ETL_output_Login?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_rAkwnvV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Port" prompt="Final_ETL_output_Port?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_rAkwn_V7Ee6a67Tnkgk74Q" name="Final_ETL_output_Server" prompt="Final_ETL_output_Server?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_rAkwoPV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Database" prompt="Final_ETL_output_Database?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="final_project_etl"/>
+    <contextParameter comment="" internalId="_rAkwofV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Password" prompt="Final_ETL_output_Password?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:LGB8BMSU8RYEWLWAr7v9qegYJoN/fOMxsfpGF21J6aG65XbmrQ=="/>
+  </context>
+  <context confirmationNeeded="false" hide="false" name="Test">
+    <contextParameter comment="" internalId="_-JGSt_LgEe6A5Le2J7qo2g" name="FInal_Project_phase1_AdditionalParams" prompt="FInal_Project_phase1_AdditionalParams?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_-JGSuPLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Login" prompt="FInal_Project_phase1_Login?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_-JGSufLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Database" prompt="FInal_Project_phase1_Database?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="damg7370"/>
+    <contextParameter comment="" internalId="_-JGSuvLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Server" prompt="FInal_Project_phase1_Server?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_-JGSu_LgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Port" prompt="FInal_Project_phase1_Port?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_-JGSvPLgEe6A5Le2J7qo2g" name="FInal_Project_phase1_Password" prompt="FInal_Project_phase1_Password?" promptNeeded="false" repositoryContextId="_Jf-2APIeEe6dV-0Bt1lWlw" type="id_Password" value="enc:system.encryption.key.v1:Yp8grG1XDRTCCyOzrkEpXGijfBYqNahOYwweaaZgZ1QzaI9y"/>
+    <contextParameter comment="" internalId="_4JJF9vLhEe6A5Le2J7qo2g" name="ETL_test_output_AdditionalParams" prompt="ETL_test_output_AdditionalParams?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_4JJF9_LhEe6A5Le2J7qo2g" name="ETL_test_output_Port" prompt="ETL_test_output_Port?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_4JJF-PLhEe6A5Le2J7qo2g" name="ETL_test_output_Login" prompt="ETL_test_output_Login?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_4JJF-fLhEe6A5Le2J7qo2g" name="ETL_test_output_Password" prompt="ETL_test_output_Password?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_Password" value="enc:system.encryption.key.v1:B5JHKWr+DmSSDu8BBBs2ojXhDy/B6d+FpdJhxLRk9y/3yjR4"/>
+    <contextParameter comment="" internalId="_4JJF-vLhEe6A5Le2J7qo2g" name="ETL_test_output_Database" prompt="ETL_test_output_Database?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="final_project_draft1"/>
+    <contextParameter comment="" internalId="_4JJF-_LhEe6A5Le2J7qo2g" name="ETL_test_output_Server" prompt="ETL_test_output_Server?" promptNeeded="false" repositoryContextId="_WEvMcPLhEe6A5Le2J7qo2g" type="id_String" value="Localhost"/>
+    <contextParameter comment="" internalId="_o6Q2UvV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Port" prompt="ETL_test_output1_Port?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_o6Q2U_V5Ee6a67Tnkgk74Q" name="ETL_test_output1_AdditionalParams" prompt="ETL_test_output1_AdditionalParams?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_o6Q2VPV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Server" prompt="ETL_test_output1_Server?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="Localhost"/>
+    <contextParameter comment="" internalId="_o6Q2VfV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Login" prompt="ETL_test_output1_Login?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_o6Q2VvV5Ee6a67Tnkgk74Q" name="ETL_test_output1_Database" prompt="ETL_test_output1_Database?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_String" value="final_project_etl"/>
+    <contextParameter comment="" internalId="_o6Q2V_V5Ee6a67Tnkgk74Q" name="ETL_test_output1_Password" prompt="ETL_test_output1_Password?" promptNeeded="false" repositoryContextId="_bGLbUPV5Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:qP9IZ/Xc2zn0bqQrHQ8dd/W0FMDrnriNYEkdpEJxWlo4u2M6KQ=="/>
+    <contextParameter comment="" internalId="_FI7EcvV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Login" prompt="FInal_Project_phase11_Login?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_FI7Ec_V6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Database" prompt="FInal_Project_phase11_Database?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="staging_tables"/>
+    <contextParameter comment="" internalId="_FI7EdPV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Password" prompt="FInal_Project_phase11_Password?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:RrCr0AxZfvPGYzKFqwi8Le7EgkBECKKkWL5MudpjOeUGAAC8Dg=="/>
+    <contextParameter comment="" internalId="_FI7EdfV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Port" prompt="FInal_Project_phase11_Port?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_FI7EdvV6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_AdditionalParams" prompt="FInal_Project_phase11_AdditionalParams?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_FI7Ed_V6Ee6a67Tnkgk74Q" name="FInal_Project_phase11_Server" prompt="FInal_Project_phase11_Server?" promptNeeded="false" repositoryContextId="_-etPIPV5Ee6a67Tnkgk74Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_rAkwovV7Ee6a67Tnkgk74Q" name="Final_ETL_output_AdditionalParams" prompt="Final_ETL_output_AdditionalParams?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1"/>
+    <contextParameter comment="" internalId="_rAkwo_V7Ee6a67Tnkgk74Q" name="Final_ETL_output_Login" prompt="Final_ETL_output_Login?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="root"/>
+    <contextParameter comment="" internalId="_rAkwpPV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Port" prompt="Final_ETL_output_Port?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="3306"/>
+    <contextParameter comment="" internalId="_rAkwpfV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Server" prompt="Final_ETL_output_Server?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_rAkwpvV7Ee6a67Tnkgk74Q" name="Final_ETL_output_Database" prompt="Final_ETL_output_Database?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_String" value="final_project_etl"/>
+    <contextParameter comment="" internalId="_rAkwp_V7Ee6a67Tnkgk74Q" name="Final_ETL_output_Password" prompt="Final_ETL_output_Password?" promptNeeded="false" repositoryContextId="_mgkwIPV7Ee6a67Tnkgk74Q" type="id_Password" value="enc:system.encryption.key.v1:uTf5ybIoiKsd8eoc2tDQnbb+I5J3ZvNoBR0Rhgr3sbnSWspBjg=="/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:DDQ/Fhs/DbNhNn0tadZd3pZvoh6QmwMlJ5gw3nsa"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/durge/OneDrive/Desktop/Talend_Workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:TETCLaAfJmVcYBCZHpDDPAGmkzxdLPztDto3DaEV"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_T2iyAMkdEe69OuaUWXKYEg" name="DataOperation"/>
+    <routinesParameter id="_T2pfsMkdEe69OuaUWXKYEg" name="Mathematical"/>
+    <routinesParameter id="_T2vmUMkdEe69OuaUWXKYEg" name="Numeric"/>
+    <routinesParameter id="_T21s8MkdEe69OuaUWXKYEg" name="Relational"/>
+    <routinesParameter id="_T1aJkMkdEe69OuaUWXKYEg" name="SQLike"/>
+    <routinesParameter id="_T26lcMkdEe69OuaUWXKYEg" name="StringHandling"/>
+    <routinesParameter id="_T2_d8MkdEe69OuaUWXKYEg" name="TalendDataGenerator"/>
+    <routinesParameter id="_T3S_8MkdEe69OuaUWXKYEg" name="TalendDate"/>
+    <routinesParameter id="_T3f0QMkdEe69OuaUWXKYEg" name="TalendStringUtil"/>
+    <routinesParameter id="_T3ZtoMkdEe69OuaUWXKYEg" name="TalendString"/>
+  </parameters>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_55HMwPVoEe6a67Tnkgk74Q"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="&quot;localhost&quot;"/>
+    <elementParameter field="TEXT" name="PORT" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" value="&quot;staging_tables&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="USER" value="&quot;root&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fBALDBOpRE1NIACuL29Qdf0AdrXqs7y2HYzgxuvIr2eqwSJPk4at"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;new_york_stg&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `new_york_stg`.`LONGITUDE`, &#10;  `new_york_stg`.`LATITUDE`, &#10;  `new_york_stg`.`ON_STREET_NAME`&#10;FROM `new_york_stg`&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&amp;enabledTLSProtocols=TLSv1.2,TLSv1.1,TLSv1&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="LONGITUDE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LATITUDE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ON_STREET_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="FInal_Project_phase1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBInput_1">
+      <column comment="" defaultValue="" key="false" length="65" name="LONGITUDE" nullable="true" originalLength="-1" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="LATITUDE" nullable="true" originalLength="-1" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="ON_STREET_NAME" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="224" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_2"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_pJgIwPLfEe6A5Le2J7qo2g-tMap_2-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out">
+      <column comment="" defaultValue="" key="false" length="65" name="LONGITUDE" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="LATITUDE" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="ON_STREET_NAME" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="out" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.LONGITUDE" name="LONGITUDE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.LATITUDE" name="LATITUDE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.ON_STREET_NAME.toLowerCase() " name="ON_STREET_NAME" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="LONGITUDE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LATITUDE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ON_STREET_NAME" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUniqRow_1"/>
+    <elementParameter field="TABLE" name="UNIQUE_KEY">
+      <elementValue elementRef="SCHEMA_COLUMN" value="LONGITUDE"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LATITUDE"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ON_STREET_NAME"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="ONLY_ONCE_EACH_DUPLICATED_KEY" value="false"/>
+    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
+    <elementParameter field="OPENED_LIST" name="BUFFER_SIZE" show="false" value="M"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIRECTORY" show="false" value=""/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tUniqRow_1">
+      <column comment="" defaultValue="" key="false" length="65" name="LONGITUDE" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="LATITUDE" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="ON_STREET_NAME" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="UNIQUE" name="UNIQUE">
+      <column comment="" defaultValue="" key="false" length="65" name="LONGITUDE" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="LATITUDE" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="ON_STREET_NAME" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="DUPLICATE" name="DUPLICATE">
+      <column comment="" defaultValue="" key="false" length="65" name="LONGITUDE" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="LATITUDE" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="ON_STREET_NAME" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="576" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_pJgIwPLfEe6A5Le2J7qo2g-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="address_dim_test">
+      <column comment="" defaultValue="" key="false" length="65" name="Longitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="Latitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DI_WorkFlowFileName" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="DI_Creation_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Street_name" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="-1" name="Address_Sk" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="Numeric.sequence(&quot;S1&quot;,1,1)" name="Address_Sk" type="id_Integer"/>
+      </varTables>
+      <outputTables name="address_dim_test" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row2.LONGITUDE " name="Longitude" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row2.LATITUDE " name="Latitude" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="pid" name="DI_WorkFlowFileName" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="TalendDate.getCurrentDate() " name="DI_Creation_Date" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row2.ON_STREET_NAME " name="Street_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Address_Sk " name="Address_Sk" type="id_Integer"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="LONGITUDE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="LATITUDE" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ON_STREET_NAME" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_3"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_pJgIwPLfEe6A5Le2J7qo2g-tMap_3-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
+    <elementParameter field="TEXT" name="JACCARD" show="false" value="0"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" defaultValue="" key="false" length="65" name="Longitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="Latitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Job_ID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="DI_Creation_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Street_name" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="-1" name="Address_Sk" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="City" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="address_dim_test.Longitude " name="Longitude" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="address_dim_test.Latitude " name="Latitude" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="address_dim_test.DI_WorkFlowFileName " name="Job_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="address_dim_test.DI_Creation_Date " name="DI_Creation_Date" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="address_dim_test.Street_name " name="Street_name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="address_dim_test.Latitude.compareTo(new BigDecimal(0)) == 0 &amp;&amp; address_dim_test.Longitude.compareTo(new BigDecimal(0)) == 0 &amp;&amp; &quot;not given&quot;.equals(address_dim_test.Street_name) ? -1 : address_dim_test.Address_Sk " name="Address_Sk" type="id_Integer"/>
+        <mapperTableEntries expression="&quot;New York&quot;" name="City" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="address_dim_test" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="Longitude" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="Latitude" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DI_WorkFlowFileName" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DI_Creation_Date" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="Street_name" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Address_Sk" type="id_Integer"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tUniqRow" componentVersion="0.101" offsetLabelX="50" offsetLabelY="-82" posX="928" posY="160">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tUniqRow_2"/>
+    <elementParameter field="TABLE" name="UNIQUE_KEY">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Longitude"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Latitude"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Job_ID"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_Creation_Date"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Street_name"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address_Sk"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="true"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="City"/>
+      <elementValue elementRef="KEY_ATTRIBUTE" value="false"/>
+      <elementValue elementRef="CASE_SENSITIVE" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="ONLY_ONCE_EACH_DUPLICATED_KEY" value="false"/>
+    <elementParameter field="CHECK" name="IS_VIRTUAL_COMPONENT" value="false"/>
+    <elementParameter field="OPENED_LIST" name="BUFFER_SIZE" show="false" value="M"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIRECTORY" show="false" value=""/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tUniqRow_2">
+      <column comment="" defaultValue="" key="false" length="65" name="Longitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="Latitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Job_ID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="DI_Creation_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Street_name" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="-1" name="Address_Sk" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="City" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="UNIQUE" name="UNIQUE">
+      <column comment="" defaultValue="" key="false" length="65" name="Longitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="Latitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Job_ID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="DI_Creation_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Street_name" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="-1" name="Address_Sk" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="City" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="DUPLICATE" name="DUPLICATE">
+      <column comment="" defaultValue="" key="false" length="65" name="Longitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="Latitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Job_ID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="DI_Creation_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Street_name" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="-1" name="Address_Sk" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="City" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_dVA_gPV7Ee6a67Tnkgk74Q"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_8"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MYSQL"/>
+    <elementParameter field="TEXT" name="HOST" value="context.Final_ETL_output_Server"/>
+    <elementParameter field="TEXT" name="PORT" value="context.Final_ETL_output_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.Final_ETL_output_Database"/>
+    <elementParameter field="TEXT" name="USER" value="context.Final_ETL_output_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:/S8xaQwhZJ7OXfmkEbOfgwNWbjq0P11gH9Jk0MfhAIGFUBeX6s6ntW8IzfNTv9Jp5Yq1RaxR0TWIkkfRpw=="/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;address_dim&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.Final_ETL_output_AdditionalParams"/>
+    <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Longitude"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Latitude"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Job_ID"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DI_Creation_Date"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Street_name"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Address_Sk"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="City"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="USE_HINT_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="HINT_OPTIONS" show="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="ON_DUPLICATE_KEY_UPDATE" value="false"/>
+    <elementParameter field="TABLE" name="DUPLICATED_KEYS" show="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Final_ETL_output"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDBOutput_1">
+      <column comment="" defaultValue="" key="false" length="65" name="Longitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="Latitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Job_ID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="DI_Creation_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Street_name" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="-1" name="Address_Sk" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="City" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" defaultValue="" key="false" length="65" name="Longitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="65" name="Latitude" nullable="true" originalLength="65" pattern="" precision="6" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Job_ID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="19" name="DI_Creation_Date" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="0" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="500" name="Street_name" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="true" length="-1" name="Address_Sk" nullable="false" originalLength="-1" pattern="" precision="-1" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="City" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tDBInput_1" offsetLabelX="0" offsetLabelY="0" source="tDBInput_1" target="tMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out" lineStyle="0" metaname="out" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="tUniqRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Address_Sk"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out"/>
+  </connection>
+  <connection connectorName="UNIQUE" label="row2" lineStyle="0" metaname="UNIQUE" offsetLabelX="0" offsetLabelY="0" source="tUniqRow_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="address_dim_test" lineStyle="0" metaname="address_dim_test" offsetLabelX="31" offsetLabelY="50" source="tMap_1" target="tMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="address_dim_test"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_3" target="tUniqRow_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+  </connection>
+  <connection connectorName="UNIQUE" label="row3" lineStyle="0" metaname="UNIQUE" offsetLabelX="0" offsetLabelY="0" source="tUniqRow_2" target="tDBOutput_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8bdd3220-14c8-44c6-9258-fc0607cbe21e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>f+ulL80LQvkdSa3GJMXrpHe+uRMvtnv2ZjutHu76EurvkSOu4rvII8QM4YSv+oHe/KzuhXs1HIXi&#13;
+YWv3lXpVCw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_87986e97-427d-4f11-8d15-84c8f1487eb3"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>HWCh0qjCOLsMkbzYiLThvh2oj2w2/wZtgAB6g+YaPQXr5uU4uUBjZIT/zJwJQH/OojOeFI/K4Qoh&#13;
+PGAja6C8jQ==</DigestValue></Reference></SignedInfo><SignatureValue>L0wNnz9bH0gpX1CEcxBuiogzaGk8QCDRT1yTGo8a9UgLsPoTy8JTVxJ2AJFTi0BcY/oSrCLchTSG&#13;
+xdcrw8fBruvFo3mvlppvyyZcgBDVgylR08CVuJfXkOgrKADrjzoK2NS0agvg0K98yVLevEcRccI5&#13;
+l3KAVn+B6jGCFI9lPZMyPiTadvSDZHdej+DNYlDvXGlUXM5oa4O08DseyGtulrUu/wMT85kE9ljd&#13;
+bjav3YQKquW+UEbQaNNVcCUCG5/g0owVpuP4ipoPFSNCmnNaKI/lLihjVb3GxaKncxfgmC2JUEU+&#13;
+q/eODgulpjeM4JVcV/yuusdzvRZdzIq79eaT2g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_87986e97-427d-4f11-8d15-84c8f1487eb3" Target="#_8bdd3220-14c8-44c6-9258-fc0607cbe21e"><Timestamp>2024-04-09 06:55:04</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_z19JgPOREe6A5Le2J7qo2g">
+    <contextParameter comment="" name="Contributing_factors_ThousandSeparator" prompt="Contributing_factors_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_z19wkPOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_DecimalSeparator" prompt="Contributing_factors_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_z19wkfOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_File" prompt="Contributing_factors_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/shant/Downloads/Contributing Factor Mapping.xlsx" xmi:id="_z19wkvOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_Header" prompt="Contributing_factors_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_z19wk_OREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_Encoding" prompt="Contributing_factors_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_z19wlPOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_FirstColumn" prompt="Contributing_factors_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_z19wlfOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_LastColumn" prompt="Contributing_factors_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_z19wlvOREe6A5Le2J7qo2g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_z19wl_OREe6A5Le2J7qo2g">
+    <contextParameter comment="" name="Contributing_factors_ThousandSeparator" prompt="Contributing_factors_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_z19wmPOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_DecimalSeparator" prompt="Contributing_factors_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_z19wmfOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_File" prompt="Contributing_factors_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/shant/Downloads/Contributing Factor Mapping.xlsx" xmi:id="_z19wmvOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_Header" prompt="Contributing_factors_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_z19wm_OREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_Encoding" prompt="Contributing_factors_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_z19wnPOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_FirstColumn" prompt="Contributing_factors_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_z19wnfOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_LastColumn" prompt="Contributing_factors_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_z19wnvOREe6A5Le2J7qo2g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_z19wn_OREe6A5Le2J7qo2g">
+    <contextParameter comment="" name="Contributing_factors_ThousandSeparator" prompt="Contributing_factors_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_z19woPOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_DecimalSeparator" prompt="Contributing_factors_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_z19wofOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_File" prompt="Contributing_factors_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/shant/Downloads/Contributing Factor Mapping.xlsx" xmi:id="_z19wovOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_Header" prompt="Contributing_factors_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_z19wo_OREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_Encoding" prompt="Contributing_factors_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_z19wpPOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_FirstColumn" prompt="Contributing_factors_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_z19wpfOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_LastColumn" prompt="Contributing_factors_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_z19wpvOREe6A5Le2J7qo2g"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_z19wp_OREe6A5Le2J7qo2g">
+    <contextParameter comment="" name="Contributing_factors_ThousandSeparator" prompt="Contributing_factors_ThousandSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="','" xmi:id="_z19wqPOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_DecimalSeparator" prompt="Contributing_factors_DecimalSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="'.'" xmi:id="_z19wqfOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_File" prompt="Contributing_factors_File?" promptNeeded="false" repositoryContextId="built-in" type="id_File" value="C:/Users/shant/Downloads/Contributing Factor Mapping.xlsx" xmi:id="_z19wqvOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_Header" prompt="Contributing_factors_Header?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_z19wq_OREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_Encoding" prompt="Contributing_factors_Encoding?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="UTF-8" xmi:id="_z19wrPOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_FirstColumn" prompt="Contributing_factors_FirstColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_z19wrfOREe6A5Le2J7qo2g"/>
+    <contextParameter comment="" name="Contributing_factors_LastColumn" prompt="Contributing_factors_LastColumn?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_z19wrvOREe6A5Le2J7qo2g"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3443a12b-2f17-426b-bf83-d0167096013d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JVXPomuziTLhr+4wG/5lgZ7MbvWg6faxfr+e69CSRxN2epwtWFP+70iFlAxOlIMCiyy6TmsjQatN&#13;
+dgN7sBm5hQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ab770fb3-840c-44fe-aef4-8820288ab4eb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>25yXdE9GUHt4hgYPOo/RlywBsgb8QjK/NNOUH1LYQeBl+szJ56psJPTbTOP9tR1t/hNR3+2r5IVe&#13;
+MaxC1jQpOQ==</DigestValue></Reference></SignedInfo><SignatureValue>CXCL3mvQiSSOZOnAJwH28aXJkN97BefoZTS0G2UzhpQOt3FQKtUyIWY0Fupe8sHAlYrf42GctEQs&#13;
+ZsWv70p7sAcZbcezj+nFRL+VPiJpjW9sY0dHjvdMBZbvJfgn8UIuKBeretg/UATvP+C18t1MYYro&#13;
+CZl4C8tT50vgqm5HsPjuX09I0MRXuGiNoZ/Cyau3UrwfU8zglo98/NnW4zqHf5cr91gHcYLaGL9V&#13;
++6wYl04jVig3BqOI7CoPQDn5ZEeCcX5lMk3g4+/yJGsfqoX0ONJll4ItuOvRMT5M9Jczcdnk5JfI&#13;
+SWNykYCylfndvxD5762bICEZURLwy2umrxY91g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ab770fb3-840c-44fe-aef4-8820288ab4eb" Target="#_3443a12b-2f17-426b-bf83-d0167096013d"><Timestamp>2024-04-08 05:03:59</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

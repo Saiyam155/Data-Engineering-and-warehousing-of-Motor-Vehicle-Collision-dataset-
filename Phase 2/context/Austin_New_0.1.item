@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_y-_aoPVlEe6a67Tnkgk74Q">
+    <contextParameter comment="" name="Austin_New_File" prompt="Austin_New_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/durge/Downloads/DADABI_FinalProject/Austin_Crash_Report_Data_-_Crash_Level_Records_20240326.tsv" xmi:id="_y-_aofVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_FieldSeparator" prompt="Austin_New_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_y-_aovVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_RowSeparator" prompt="Austin_New_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_y-_ao_VlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_Header" prompt="Austin_New_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_y-_apPVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_Encoding" prompt="Austin_New_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_y-_apfVlEe6a67Tnkgk74Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Dev" xmi:id="_y-_apvVlEe6a67Tnkgk74Q">
+    <contextParameter comment="" name="Austin_New_File" prompt="Austin_New_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/durge/Downloads/DADABI_FinalProject/Austin_Crash_Report_Data_-_Crash_Level_Records_20240326.tsv" xmi:id="_y-_ap_VlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_FieldSeparator" prompt="Austin_New_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_y-_aqPVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_RowSeparator" prompt="Austin_New_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_y-_aqfVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_Header" prompt="Austin_New_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_y-_aqvVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_Encoding" prompt="Austin_New_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_y-_aq_VlEe6a67Tnkgk74Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Prod" xmi:id="_y-_arPVlEe6a67Tnkgk74Q">
+    <contextParameter comment="" name="Austin_New_File" prompt="Austin_New_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/durge/Downloads/DADABI_FinalProject/Austin_Crash_Report_Data_-_Crash_Level_Records_20240326.tsv" xmi:id="_y-_arfVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_FieldSeparator" prompt="Austin_New_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_y-_arvVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_RowSeparator" prompt="Austin_New_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_y-_ar_VlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_Header" prompt="Austin_New_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_y-_asPVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_Encoding" prompt="Austin_New_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_y-_asfVlEe6a67Tnkgk74Q"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Test" xmi:id="_y-_asvVlEe6a67Tnkgk74Q">
+    <contextParameter comment="" name="Austin_New_File" prompt="Austin_New_File?" promptNeeded="false" repositoryContextId="" type="id_File" value="C:/Users/durge/Downloads/DADABI_FinalProject/Austin_Crash_Report_Data_-_Crash_Level_Records_20240326.tsv" xmi:id="_y-_as_VlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_FieldSeparator" prompt="Austin_New_FieldSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\t&quot;" xmi:id="_y-_atPVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_RowSeparator" prompt="Austin_New_RowSeparator?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;\n&quot;" xmi:id="_y-_atfVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_Header" prompt="Austin_New_Header?" promptNeeded="false" repositoryContextId="" type="id_Integer" value="1" xmi:id="_y-_atvVlEe6a67Tnkgk74Q"/>
+    <contextParameter comment="" name="Austin_New_Encoding" prompt="Austin_New_Encoding?" promptNeeded="false" repositoryContextId="" type="id_String" value="UTF-8" xmi:id="_y-_at_VlEe6a67Tnkgk74Q"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ed795591-7b2c-49c0-82eb-9a6242b17260"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XmH588mrzSJ9oSHKUVYHLOIxAqmMOWGMMlfZTps0Q3UZWhqPSeLgr8uCYXSAH9LKXREPBbfKgH3y&#13;
+ikT7EbDnPg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_030f51e3-0adc-4f87-bab1-ee17ab986e60"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>jvBY4fDDeGXHP1SHxMBQYonMcyEXQZTbjEtYBIw0fVojGnKZeMqUiF7noRwkc/kwo01UmWPDNi3c&#13;
+O5+c2jAlrg==</DigestValue></Reference></SignedInfo><SignatureValue>M4riIwng6AheV1gYhvmnORvCA1DAF2/fEqAgY3GrhxiKTB7IUTgyDrlNNlgVeaCgea7k2Aa/H2Xq&#13;
+Q6XfoNpxDEDUePIH4JBtf3MjmGuPt8XfZdTVjD2LLQOnbTku9qXEhKc9RYPrrSV/txxq3pt4GgaB&#13;
+OFjtVkwqiDPXcE7Y1YksJNEHjTcsEEMIZ9rGcw1wJrnaS5WICvA4zRB5wE2/w47IqZIK5bH9m8x0&#13;
+ii2KgweYgQ8fBvwIAKjTwtlvU2dk6Wh4f1jrwP7pAryFr3zhR6cudvUzcGKZ5X557V6/RKeLh8PV&#13;
+SqsuemZEaLAM+e8UsAET1YyN5heQbe5x7hSiZA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_030f51e3-0adc-4f87-bab1-ee17ab986e60" Target="#_ed795591-7b2c-49c0-82eb-9a6242b17260"><Timestamp>2024-04-08 05:06:45</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
